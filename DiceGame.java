@@ -39,9 +39,9 @@ public class DiceGame {
 	   System.out.println("\n");
 	 
 
-	   Die obj2=new Die("d10", 10, 5);
+	   Die obj2=new Die( 10, 5);
 	   obj2.setCurrent_side(5);
-	   obj2.setName("Fun_d10");
+	   obj2.setName("Fun_d35");
 	   obj2.setSides(35);
 	   System.out.println("The Current side up for d35 is before roll is " +obj2.getCurrent_side());
 	   obj2.roll();

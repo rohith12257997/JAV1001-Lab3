@@ -50,10 +50,10 @@ public class Die {
 		System.out.println("Creating a default d20....\n");
 	}
 	
-	// 3 argument Constructor
-		public Die(String name, int sides, int current_side) {
+	// 2 argument Constructor
+		public Die( int sides, int current_side) {
 			
-			this.name = name;
+			
 			this.sides = sides;
 			this.current_side = current_side;
 			System.out.println("Creating a default d35....\n");
